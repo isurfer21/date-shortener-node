@@ -1,0 +1,41 @@
+{
+  "name": "date-shortener-node",
+  "version": "1.0.0",
+  "description": "Node.js based utility to shorten (encode) the date and expand (decode) shortened date back to original date",
+  "main": "mod.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "build": "wasm-pack build --target nodejs && shx cp ./pkg/*.js ./lib && shx cp ./pkg/*.wasm ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "shx": "^0.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isurfer21/date-shortener-node.git"
+  },
+  "keywords": [
+    "date-shortener",
+    "wasm",
+    "javascript",
+    "utility",
+    "tool",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/isurfer21/date-shortener-node/issues"
+  },
+  "homepage": "https://github.com/isurfer21/date-shortener-node#readme",
+  "bin": {
+    "ds": "./app.js"
+  }
+}

@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Rust binaries
+target/
+
+# Wasm-pack binaries
+pkg/

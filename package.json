@@ -1,6 +1,6 @@
 {
   "name": "date-shortener-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js based utility to shorten (encode) the date and expand (decode) shortened date back to original date",
   "main": "mod.js",
   "directories": {

@@ -1,8 +1,10 @@
+#!/usr/bin/env node
+
 const minimist = require('minimist');
 const ds = require('./lib/ds');
 
 const APPNAME = 'DATE SHORTENER';
-const APPVER = '1.0.0';
+const APPVER = '1.0.1';
 
 class Args {
     constructor() {
